@@ -5,6 +5,27 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThesisWebApplication", "ThesisWebApplication\ThesisWebApplication.csproj", "{3BFDDF9D-44EC-4589-9B7F-26852ABD1A1C}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Angular(2)", "Angular\", "{F3C545FE-CA9F-497A-8EB8-4EE47419DDE4}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50423"
+		Debug.AspNetCompiler.PhysicalPath = "Angular\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50423\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50423"
+		Release.AspNetCompiler.PhysicalPath = "Angular\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50423\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50423"
+		SlnRelativePath = "Angular\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +36,10 @@ Global
 		{3BFDDF9D-44EC-4589-9B7F-26852ABD1A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BFDDF9D-44EC-4589-9B7F-26852ABD1A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BFDDF9D-44EC-4589-9B7F-26852ABD1A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3C545FE-CA9F-497A-8EB8-4EE47419DDE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C545FE-CA9F-497A-8EB8-4EE47419DDE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C545FE-CA9F-497A-8EB8-4EE47419DDE4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C545FE-CA9F-497A-8EB8-4EE47419DDE4}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
